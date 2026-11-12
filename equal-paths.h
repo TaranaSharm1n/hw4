@@ -29,4 +29,8 @@ struct Node {
  */
 bool equalPaths(Node * root);
 
+
+//helper function takes in current node, current depth, and reference to first node's depth 
+bool checkPaths(Node* current, int currDepth, int &fdepth);
+
 #endif
